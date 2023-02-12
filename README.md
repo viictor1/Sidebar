@@ -1,5 +1,5 @@
 # Sidebar-Responsivo
-Desafio da Rocketseat
+Desafio Intermediário da Rocketseat
 
 
 ### Funcionalidades
@@ -12,3 +12,6 @@ Desafio da Rocketseat
  - Manupulação de DOM 
  - Alinhamento
  - Conhecimentos básicos de JavaScript
+
+### Layout
+ - https://www.figma.com/file/iOuqAlZvhAMkkfjCMFyc7Y/DD-%2F-Sidebar-Responsiva/duplicate
