@@ -10,15 +10,9 @@
     margin: 0;
     padding: 0;
 }
-.dashbord{
-    width: 100%;
-}
+
 img{
     cursor: pointer;
-}
-
-.sidebar, .dashbord{
-    transition: .3s;
 }
 
 body{
@@ -27,6 +21,7 @@ body{
 
     display: grid;
     grid-template-columns: 15.625rem 1fr;
+    transition: all 0.8s ease;
 }
 
 h1{
@@ -43,12 +38,14 @@ h4{
     background-color: var(--green);
     height: 100vh;
     width: 100%;
+
 }
 
 .sidebarHeader{
     display: flex;
     justify-content: space-around;
     padding: 1rem 0;
+
 }
 
 .searchBar{
@@ -60,6 +57,7 @@ h4{
     margin: auto;
     margin-bottom: 1rem;
     padding: 1rem 1.5rem;
+
 }
 
 .form{
@@ -86,6 +84,7 @@ h4{
 .lista{
     display: grid;
     justify-content: center;
+
 }
 
 .item{
@@ -96,7 +95,6 @@ h4{
     padding: 1rem .5rem;
     border-radius: 18px;
 
-    transition: .3s;
 }
 
 .item span{
@@ -114,6 +112,7 @@ h4{
     bottom: 0;
     position: fixed;
     width: 15.625rem;
+
 }
 
 .profilePic{
