@@ -14,4 +14,4 @@ Desafio Intermediário da Rocketseat
  - Conhecimentos básicos de JavaScript
 
 ### Layout
- - https://www.figma.com/file/iOuqAlZvhAMkkfjCMFyc7Y/DD-%2F-Sidebar-Responsiva/duplicate
+ - <a href="https://www.figma.com/file/iOuqAlZvhAMkkfjCMFyc7Y/DD-%2F-Sidebar-Responsiva/duplicate"> <img align="center" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" /> </a>
