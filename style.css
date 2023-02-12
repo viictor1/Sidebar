@@ -10,6 +10,16 @@
     margin: 0;
     padding: 0;
 }
+.dashbord{
+    width: 100%;
+}
+img{
+    cursor: pointer;
+}
+
+.sidebar, .dashbord{
+    transition: .3s;
+}
 
 body{
     background-color: var(--body-bg-color);
@@ -37,20 +47,24 @@ h4{
 
 .sidebarHeader{
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 1rem 2rem 2rem;
+    justify-content: space-around;
+    padding: 1rem 0;
 }
 
 .searchBar{
-    display: flex;
-    align-items: center;
+    display: flex; 
+    justify-content: center;
     border-radius: 12px;
     background-color: var(--light-green);
-    max-width: 222px;
-    padding: 0.5rem 0 0.5rem 0.5rem;
-    gap: 10px;
+    max-width: 200px;
     margin: auto;
     margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
 }
 
 .searchBar input{
@@ -59,38 +73,47 @@ h4{
     font-size: 1rem;
     border: 0;
     outline: 0;
-    padding: 0.5rem 0;
+    margin-left: .8rem;
 }
 
 .searchBar button{
     background-color: var(--light-green);
-    margin-left: 0.8rem;
     border-radius: 12px;
     border: 0;
     cursor: pointer;
 }
 
 .lista{
-    display: flex;
-    flex-direction: column;
-    gap: 1.8rem;
-    margin-left: 2rem;
+    display: grid;
+    justify-content: center;
 }
 
 .item{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 24px 1fr;
+    cursor: pointer;
+    padding: 1rem .5rem;
+    border-radius: 18px;
+
+    transition: .3s;
+}
+
+.item span{
+    margin-left: 1rem;
+}
+.item:hover{
+    background-color: var(--light-grey);
 }
 
 .user{
     background-color: var(--light-green);
     display: flex;
-    padding: 0.8rem 0.5rem;
-    justify-content: space-between;
+    padding: 0.8rem 0;
+    justify-content: space-around;
     bottom: 0;
     position: fixed;
-    width: 14.625rem;
+    width: 15.625rem;
 }
 
 .profilePic{
@@ -128,7 +151,7 @@ p{
 }
 
 .closed{
-    max-width: 4.8rem;
+    grid-template-columns: 4.8rem 1fr;
 }
 
 .userClosed{
@@ -136,3 +159,4 @@ p{
     display: flex;
     align-items: center;
 }
+
