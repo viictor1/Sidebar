@@ -32,6 +32,7 @@ h4{
 .sidebar{
     background-color: var(--green);
     height: 100vh;
+    width: 100%;
 }
 
 .sidebarHeader{
@@ -89,7 +90,7 @@ h4{
     justify-content: space-between;
     bottom: 0;
     position: fixed;
-    width: calc(15.625rem - 1rem);
+    width: 14.625rem;
 }
 
 .profilePic{
@@ -120,4 +121,18 @@ p{
 .logOut{
     justify-content: flex-end;
     justify-items: right;
+}
+
+.hidden{
+    display: none; 
+}
+
+.closed{
+    max-width: 4.8rem;
+}
+
+.userClosed{
+    max-width: 4.8rem;
+    display: flex;
+    align-items: center;
 }
