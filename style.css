@@ -18,7 +18,6 @@ img{
 body{
     background-color: var(--body-bg-color);
     font-family: 'Poppins', sans-serif;
-
     display: grid;
     grid-template-columns: 15.625rem 1fr;
     transition: all 0.8s ease;
@@ -31,6 +30,7 @@ h1{
 
 h4{
     font-weight: 400;
+    font-size: .9rem;
     margin: 0;
 }
 
@@ -38,7 +38,7 @@ h4{
     background-color: var(--green);
     height: 100vh;
     width: 100%;
-
+    position: relative;
 }
 
 .sidebarHeader{
@@ -110,9 +110,8 @@ h4{
     padding: 0.8rem 0;
     justify-content: space-around;
     bottom: 0;
-    position: fixed;
-    width: 15.625rem;
-
+    width: 100%;
+    position: absolute;
 }
 
 .profilePic{
@@ -136,7 +135,7 @@ h4{
 p{
     margin: 0;
     line-height: 0.5;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -152,10 +151,3 @@ p{
 .closed{
     grid-template-columns: 4.8rem 1fr;
 }
-
-.userClosed{
-    max-width: 4.8rem;
-    display: flex;
-    align-items: center;
-}
-
