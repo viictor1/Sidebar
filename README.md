@@ -1,6 +1,7 @@
 # Sidebar-Responsivo
 Desafio Intermediário da Rocketseat
 
+## Acesse o deploy do projeto: [Projeto](https//sidebar-responsivo.vercel.app)
 
 ### Funcionalidades
   - Quando o usuário clicar no ícone do menu isso deve fazer com que o estado da sidebar mude entre "aberto", mostrando ícones e texto e "fechado", mostrando apenas os ícones
